@@ -1,0 +1,39 @@
+.products{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+    padding: 20px;
+}
+
+.single__product{
+    height: 200px;
+    padding: 40px;
+    width: 70%;
+
+    /* width: 100%; */
+    background-color: rgb(246, 246, 246);
+}
+.single__product > img{
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+    margin-bottom: 3px;
+}
+.pagination
+{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+
+    padding: 10px;
+    place-items: center;
+    font-size: 13px;
+}
+.pagination > span{
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+  
+}
